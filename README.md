@@ -35,6 +35,9 @@ Upload the csv file containing input data and the site will show you the target 
 This is what you should be looking at if you do everything correctly.
 ![Web App](/assets/webapp.png?raw=true "Deployed App")
 
+Your commandline would look something like this.
+![Commandline](/assets/commandline.png?raw=true "Commandline")
+
 Uploading a dataset (csv)
 ![Uploading data](/assets/upload_data.png?raw=true "Uploading Data")
 
