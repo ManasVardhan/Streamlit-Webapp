@@ -30,6 +30,17 @@ streamlit run applit.py
 This will open up the local server and you will be able to access it via your browser.
 Upload the csv file containing input data and the site will show you the target variables.
 
+### Screenshots
+
+This is what you should be looking at if you do everything correctly.
+![Web App](/assets/webapp.png?raw=true "Deployed App")
+
+Uploading a dataset (csv)
+![Uploading data](/assets/upload_data.png?raw=true "Uploading Data")
+
+Obtaining Results
+![Results (Target Values)](/assets/results.png?raw=true "Target Values")
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/) for details on our code of conduct, and the process for submitting pull requests.
