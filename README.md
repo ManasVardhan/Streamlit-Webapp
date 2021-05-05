@@ -33,7 +33,7 @@ Upload the csv file containing input data and the site will show you the target 
 ### Screenshots
 
 This is what you should be looking at if you do everything correctly.
-![Web App](/assets/webapp.png?raw=true "Deployed App")
+![Web App](/assets/webapp_with_features.png?raw=true "Deployed App")
 
 Your commandline would look something like this.
 ![Commandline](/assets/commandline.png?raw=true "Commandline")
