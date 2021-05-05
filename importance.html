@@ -1,0 +1,3990 @@
+
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+        <p>Explained as: feature importances</p>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+        
+        <pre>
+Feature importances, computed as a decrease in score when feature
+values are permuted (i.e. become noise). This is also known as 
+permutation importance.
+
+If feature importances are computed on the same data as used for training, 
+they don't reflect importance of features for generalization. Use a held-out
+dataset if you want generalization feature importances.
+</pre>
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class="eli5-weights eli5-feature-importances" style="border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;">
+    <thead>
+    <tr style="border: none;">
+        <th style="padding: 0 1em 0 0.5em; text-align: right; border: none;">Weight</th>
+        <th style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style="background-color: hsl(120, 100.00%, 80.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0017
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                EXT_SOURCE_2
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 83.52%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0013
+                
+                    &plusmn; 0.0011
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                EXT_SOURCE_3
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 86.81%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0009
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_DOWN_PAYMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 88.59%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0008
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_ATM_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 89.22%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0007
+                
+                    &plusmn; 0.0013
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PAYMENT_RATE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 90.51%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0006
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_MONTHS_BALANCE_SIZE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 90.51%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0006
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CODE_GENDER
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 90.51%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0006
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_ATM_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 90.51%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0006
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_CNT_PAYMENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 91.88%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0005
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_ANNUITY_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 91.88%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0005
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REGION_RATING_CLIENT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 91.88%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0005
+                
+                    &plusmn; 0.0007
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_ATM_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 91.88%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0005
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_HOUR_APPR_PROCESS_START_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 92.61%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_GOODS_PRICE_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 92.61%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_CNT_PAYMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 92.61%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0008
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_DOWN_PAYMENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 92.61%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 93.36%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DBD_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 93.36%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_ENDDATE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 93.36%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0004
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_INSTALMENT_MATURE_CUM_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0006
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_POS_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0010
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_BIRTH
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_ATM_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_UPDATE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                EXT_SOURCE_1
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_ATM_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REGION_RATING_CLIENT_W_CITY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_HOUR_APPR_PROCESS_START_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DBD_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0007
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_DAYS_DECISION_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_CREDIT_LIMIT_ACTUAL_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DAYS_ENTRY_PAYMENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_BALANCE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_DIFF_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_ANNUITY_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_ANNUITY_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DAYS_ENTRY_PAYMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0006
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_INSTALMENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECIVABLE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_INCOME_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAREA_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECIVABLE_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0002
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_LIMIT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ORGANIZATION_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAPARTMENTS_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_DAYS_DECISION_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_DEBT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_NAME_CONTRACT_STATUS_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_NAME_CONTRACT_STATUS_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_NAME_CONTRACT_STATUS_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_DIFF_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_POS_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_PAYMENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_PERC_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                OCCUPATION_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_ANNUITY_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_CREDIT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                APARTMENTS_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_CREDIT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_BALANCE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_OWN_CAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REGION_POPULATION_RELATIVE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_POS_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_ATM_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                APARTMENTS_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_CREDIT_LIMIT_ACTUAL_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BEGINEXPLUATATION_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_RATE_DOWN_PAYMENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_INSTALMENT_MATURE_CUM_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECEIVABLE_PRINCIPAL_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                OWN_CAR_AGE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_DIFF_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_INST_MIN_REGULARITY_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_PERC_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_ID_PUBLISH
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DAYS_ENTRY_PAYMENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(120, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_PAYMENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_11
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_4
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_6
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_10
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_9
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_5
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_7
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_8
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_COUNT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_12
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_3
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_DEBT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_DEBT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_CREDIT_DAY_OVERDUE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_CREDIT_DAY_OVERDUE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ANNUITY_INCOME_PERC
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INCOME_PER_PERSON
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INCOME_CREDIT_PERC
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_YEAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_WEEK
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_13
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_DAY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_HOUR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_21
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_20
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_19
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_18
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_17
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_16
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_15
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_14
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_MON
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ENTRANCES_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_DOCUMENT_2
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REG_REGION_NOT_LIVE_REGION
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAPARTMENTS_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAREA_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LANDAREA_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMIN_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMAX_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ELEVATORS_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BUILD_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BASEMENTAREA_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVE_CITY_NOT_WORK_CITY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REG_CITY_NOT_WORK_CITY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REG_CITY_NOT_LIVE_CITY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVE_REGION_NOT_WORK_REGION
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                REG_REGION_NOT_WORK_REGION
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                HOUR_APPR_PROCESS_START
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DEF_60_CNT_SOCIAL_CIRCLE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                WEEKDAY_APPR_PROCESS_START
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CNT_FAM_MEMBERS
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_EMAIL
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_PHONE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_CONT_MOBILE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_WORK_PHONE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_EMP_PHONE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_MOBIL
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_REGISTRATION
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_FAMILY_STATUS
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_TYPE_SUITE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CNT_CHILDREN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLAG_OWN_REALTY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAREA_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                APARTMENTS_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BASEMENTAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BUILD_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                OBS_60_CNT_SOCIAL_CIRCLE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DEF_30_CNT_SOCIAL_CIRCLE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                OBS_30_CNT_SOCIAL_CIRCLE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                EMERGENCYSTATE_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                TOTALAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                HOUSETYPE_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FONDKAPREMONT_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAREA_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAPARTMENTS_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAPARTMENTS_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LANDAREA_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMIN_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMAX_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ELEVATORS_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                COMMONAREA_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BUILD_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BASEMENTAREA_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NONLIVINGAPARTMENTS_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LIVINGAPARTMENTS_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                LANDAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMIN_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                FLOORSMAX_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ENTRANCES_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ELEVATORS_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                COMMONAREA_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_OVERDUE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_APP_CREDIT_PERC_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_BALANCE_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECIVABLE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECIVABLE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECIVABLE_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECEIVABLE_PRINCIPAL_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECEIVABLE_PRINCIPAL_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_TOTAL_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_TOTAL_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_TOTAL_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_INST_MIN_REGULARITY_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_INST_MIN_REGULARITY_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_INST_MIN_REGULARITY_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_POS_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_POS_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_OTHER_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_OTHER_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_OTHER_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_OTHER_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_OTHER_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_CNT_CREDIT_PROLONG_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_ATM_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_CREDIT_LIMIT_ACTUAL_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_CREDIT_LIMIT_ACTUAL_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_CREDIT_LIMIT_ACTUAL_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_TOTAL_RECEIVABLE_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_TOTAL_RECEIVABLE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_TOTAL_RECEIVABLE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_INSTALMENT_MATURE_CUM_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_DEF_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_DEF_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_DEF_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_DEF_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_NAME_CONTRACT_STATUS_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_NAME_CONTRACT_STATUS_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_INSTALMENT_MATURE_CUM_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_INSTALMENT_MATURE_CUM_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_POS_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_TOTAL_RECEIVABLE_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_POS_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_POS_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_POS_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_POS_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_OTHER_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_OTHER_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_OTHER_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_OTHER_CURRENT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_OTHER_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_ATM_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_TOTAL_RECEIVABLE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_BALANCE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_CONTRACT_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_BALANCE_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_HOUR_APPR_PROCESS_START_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_COUNT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_DEF_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_DEF_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_DEF_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_MONTHS_BALANCE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_MONTHS_BALANCE_SIZE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_MONTHS_BALANCE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_RATE_DOWN_PAYMENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_GOODS_PRICE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DPD_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_DOWN_PAYMENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_APP_CREDIT_PERC_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_SK_DPD_DEF_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_CREDIT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_CREDIT_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_APPLICATION_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_APPLICATION_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_ANNUITY_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_MONTHS_BALANCE_MAX_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_MONTHS_BALANCE_MIN_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_NUM_INSTALMENT_VERSION_NUNIQUE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_SK_DPD_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_PAYMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_INSTALMENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_PAYMENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_PERC_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_PERC_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_COUNT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_MONTHS_BALANCE_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_AMT_INSTALMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_MONTHS_BALANCE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DPD_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_MONTHS_BALANCE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_MONTHS_BALANCE_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0000
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_APP_CREDIT_PERC_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0000
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_GOODS_PRICE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0000
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 100.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0000
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                COMMONAREA_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_HOUSING_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_TOTAL_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0009
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_INST_MIN_REGULARITY_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_RATE_DOWN_PAYMENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECEIVABLE_PRINCIPAL_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_REQ_CREDIT_BUREAU_QRT
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 98.11%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_ENDDATE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_LIMIT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0008
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_CNT_DRAWINGS_ATM_CURRENT_SUM
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                ENTRANCES_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_INCOME_TOTAL
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_EMPLOYED_PERC
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_TOTAL_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_MAX_OVERDUE_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 96.92%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0001
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_APP_CREDIT_PERC_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0005
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DPD_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                NAME_EDUCATION_TYPE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_MONTHS_BALANCE_SIZE_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_AMT_APPLICATION_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0006
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_DAYS_CREDIT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                PREV_DAYS_DECISION_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.91%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BEGINEXPLUATATION_MEDI
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_EMPLOYED
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0007
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_DBD_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_ANNUITY
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0007
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                POS_MONTHS_BALANCE_MAX
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_ATM_CURRENT_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                YEARS_BEGINEXPLUATATION_AVG
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_RECEIVABLE_PRINCIPAL_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                INSTAL_PAYMENT_DIFF_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 95.00%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0002
+                
+                    &plusmn; 0.0002
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_PAYMENT_CURRENT_MIN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0003
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                AMT_GOODS_PRICE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_CURRENT_MEAN
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 94.16%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0003
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                DAYS_LAST_PHONE_CHANGE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 93.36%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0004
+                
+                    &plusmn; 0.0006
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                WALLSMATERIAL_MODE
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 93.36%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0004
+                
+                    &plusmn; 0.0004
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                BURO_AMT_CREDIT_SUM_VAR
+            </td>
+        </tr>
+    
+        <tr style="background-color: hsl(0, 100.00%, 91.88%); border: none;">
+            <td style="padding: 0 1em 0 0.5em; text-align: right; border: none;">
+                -0.0005
+                
+                    &plusmn; 0.0003
+                
+            </td>
+            <td style="padding: 0 0.5em 0 0.5em; text-align: left; border: none;">
+                CC_AMT_DRAWINGS_CURRENT_MAX
+            </td>
+        </tr>
+    
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
