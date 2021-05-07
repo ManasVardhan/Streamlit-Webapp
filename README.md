@@ -10,7 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 Install the following requirements in your environment
 
-
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -21,16 +20,31 @@ Install the Requirements:
  pip install -r requirements.txt
 ```
 
-The to get the project running, open the command line and type the following
+To get the project running, open the command line and type the following
 
 ```
-jupyter notebook Sentiment_Analysis.ipynb
+streamlit run applit.py
 ```
 
 This will open up the local server and you will be able to access it via your browser.
+Upload the csv file containing input data and the site will show you the target variables.
+
+### Screenshots
+
+This is what you should be looking at if you do everything correctly.
+![Web App](/assets/webapp_with_features.png?raw=true "Deployed App")
+
+Your commandline would look something like this.
+![Commandline](/assets/commandline.png?raw=true "Commandline")
+
+Uploading a dataset (csv)
+![Uploading data](/assets/upload_data.png?raw=true "Uploading Data")
+
+Obtaining Results
+![Results (Target Values)](/assets/results.png?raw=true "Target Values")
+
 
 ## Contributing
-
 Please read [CONTRIBUTING.md](https://github.com/) for details on our code of conduct, and the process for submitting pull requests.
 
 ## Authors
