@@ -24,25 +24,10 @@ Install the Requirements:
 The to get the project running, open the command line and type the following
 
 ```
-streamlit run applit.py
+jupyter notebook Sentiment_Analysis.ipynb
 ```
 
 This will open up the local server and you will be able to access it via your browser.
-Upload the csv file containing input data and the site will show you the target variables.
-
-### Screenshots
-
-This is what you should be looking at if you do everything correctly.
-![Web App](/assets/webapp_with_features.png?raw=true "Deployed App")
-
-Your commandline would look something like this.
-![Commandline](/assets/commandline.png?raw=true "Commandline")
-
-Uploading a dataset (csv)
-![Uploading data](/assets/upload_data.png?raw=true "Uploading Data")
-
-Obtaining Results
-![Results (Target Values)](/assets/results.png?raw=true "Target Values")
 
 ## Contributing
 
